@@ -10,8 +10,14 @@ import HosHoverCounter from './higherOrderComponent/HosHoverCounter';
 import Calculator from './liftingStateUp/Calculator';
 import SmartCalculator from './liftingStateUp/smartBoil/SmartCalculator';
 import Name from './Name';
+import MainRender from './renderProps/MainRender';
 import Clock from './state/Clock';
 import TestClock from './state/TestClock';
+
+
+
+
+
 
 
 function Main(){
@@ -154,7 +160,7 @@ function Main(){
       <h4> ************************************************************************************************************************************</h4>
       {/*React Lesson-13(Topic:Higher Order Component) Start */}
 
-        {/* <ClickCounter/><br/><br/><br/><br/> */}
+       
         <ClickCounter/><br/><br/><br/>
         <HosClickCounter/><br/><br/>
         <HosHoverCounter/>
@@ -163,6 +169,25 @@ function Main(){
       ************************************************************************************************************************************<br/><br/><br/><br/><br/><br/>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+      <h4> ************************************************************************************************************************************</h4>
+      {/*React Lesson-14(Topic:Render Props) Start */}
+         
+         <MainRender/>
+       
+      {/*React lesson-14 End*/}
+      ************************************************************************************************************************************<br/><br/><br/><br/><br/><br/>
 
 
 
