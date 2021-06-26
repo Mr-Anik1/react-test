@@ -5,6 +5,8 @@ import RenderHoverCounter from './RenderHoverCounter';
 export default function MainRender(){
     return(
         <div>
+            React Lesson-14(Topic:Render Props) Start<br/><br/>
+
             <Counter 
               render={(count,clickHandler)=>(<RenderClickCounter count={count} clickHandler={clickHandler}/>)}
             /><br/><br/>

@@ -7,12 +7,18 @@ import MyForm from './formX/MyForm';
 import ClickCounter from './higherOrderComponent/ClickCounter';
 import HosClickCounter from './higherOrderComponent/HosClickCounter';
 import HosHoverCounter from './higherOrderComponent/HosHoverCounter';
+import MainContex from './hindiContex/MainContex';
 import Calculator from './liftingStateUp/Calculator';
 import SmartCalculator from './liftingStateUp/smartBoil/SmartCalculator';
 import Name from './Name';
 import MainRender from './renderProps/MainRender';
 import Clock from './state/Clock';
 import TestClock from './state/TestClock';
+import MainUseCallBack from './useCallback/MainUseCallBack';
+import MainEffect from './useEffectHook/MainEffect';
+import MainReducerHook from './useReducerHook/MainReducerHook';
+import MainUseRef from './useRefHook/MainUseRef';
+import MainUseStateHook from './useStateHook/MainUseStateHook';
 
 
 
@@ -41,10 +47,13 @@ function Main(){
 
       <h4> 
       ************************************************************************************************************************************</h4>
-
+      
 
 
       {/* React Lesson-7(Topic:State) Start */}
+      <h4>React Lesson-7(Topic:State) Start</h4><br/><br/>
+      
+
       <Clock local='en-us'/>
       <Clock local='bn-BD'/>
       {/* Clock component ta 1 bar Import kore 2 bar babohar korlam */}
@@ -69,10 +78,9 @@ function Main(){
 
 
       <h4> ************************************************************************************************************************************</h4><br/>
-
-
-
       {/*React Lesson-8(Topic:Event handling) Start*/}
+      <h4>React Lesson-8(Topic:Event handling) Start</h4><br/><br/><br/>
+
       Click korle clock Bangla to English hoia jbe!
       <Click/><br/><br/><br/>
 
@@ -93,6 +101,8 @@ function Main(){
 
       <h4> ************************************************************************************************************************************</h4>
       {/*React Lesson-9(Topic:Conditional Rendering) Start */}
+      <h4>React Lesson-9(Topic:Conditional Rendering) Start</h4><br/><br/>
+
        My Conditional Clock<br/>
       
       
@@ -115,6 +125,7 @@ function Main(){
 
       <h4> ************************************************************************************************************************************</h4>
       {/*React Lesson-10(Topic:Form Handling) Start */}
+      <h4>React Lesson-10(Topic:Form Handling) Start</h4><br/><br/>
        FunForm!
        <MyForm/>
        
@@ -135,7 +146,8 @@ function Main(){
 
 
       <h4> ************************************************************************************************************************************</h4>
-      {/*React Lesson-11(Topic:Lifting State Up) Start */}
+      {/* React Lesson-11(Topic:Lifting State Up) Start */}
+      <h4>React Lesson-11(Topic:Lifting State Up) Start</h4><br/>
 
         <Calculator/><br/><br/><br/><br/><br/>
         <SmartCalculator/>
@@ -159,7 +171,7 @@ function Main(){
 
       <h4> ************************************************************************************************************************************</h4>
       {/*React Lesson-13(Topic:Higher Order Component) Start */}
-
+      <h4>React Lesson-13(Topic:Higher Order Component) Start</h4><br/>
        
         <ClickCounter/><br/><br/><br/>
         <HosClickCounter/><br/><br/>
@@ -188,6 +200,119 @@ function Main(){
        
       {/*React lesson-14 End*/}
       ************************************************************************************************************************************<br/><br/><br/><br/><br/><br/>
+
+
+
+
+
+
+
+
+
+
+
+      <h4> ************************************************************************************************************************************</h4>
+      {/*React Lesson-16(Topic:Contex Api) Start */}
+         
+
+         {/*From Hindi Video*/}
+         <MainContex/>
+        
+       
+      {/*React lesson-16 End*/}
+      ************************************************************************************************************************************<br/><br/><br/><br/><br/><br/>
+
+
+
+         
+
+      <h4> ************************************************************************************************************************************</h4>
+      {/*React Lesson-19(Topic:useState() Hook) Start */}
+      <h4>React Lesson-19(Topic:useState() Hook) Start</h4><br/>
+         
+         <MainUseStateHook/>
+   
+         
+      {/*React lesson-19 End*/}
+      ************************************************************************************************************************************<br/><br/><br/><br/><br/><br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h4> ************************************************************************************************************************************</h4>
+      {/*React Lesson-20(Topic:useEffect() Hook) Start */}
+      <h4>React Lesson-20(Topic:useEffect() Hook) Start</h4><br/>
+         
+         <MainEffect/>
+   
+         
+      {/*React lesson-20 End*/}
+      ************************************************************************************************************************************<br/><br/><br/><br/><br/><br/>
+
+
+       
+
+
+
+
+      <h4> ************************************************************************************************************************************</h4>
+      {/*React Lesson-21 Topic:useCallback()  Start */}
+      <h4>React Lesson-21 Topic:useCallback()  Start</h4><br/>
+         
+         <MainUseCallBack/><br/>
+         
+      {/*React lesson-21 End*/}
+      ************************************************************************************************************************************<br/><br/><br/><br/><br/><br/>
+
+
+
+
+
+
+
+
+
+
+
+      <h4> ************************************************************************************************************************************</h4>
+      {/*React Lesson-22 Topic:useRef()  Start */}
+      <h4>React Lesson-22 Topic:useRef()  Start</h4><br/>
+         
+         <MainUseRef/>
+         
+      {/*React lesson-22 End*/}
+      ************************************************************************************************************************************<br/><br/><br/><br/><br/><br/>
+      
+
+
+
+
+
+
+
+
+
+
+      <h4> ************************************************************************************************************************************</h4>
+      {/*React Lesson-23 Topic:useReducer()  Start */}
+      <h4>React Lesson-23 Topic:useReducer()  Start</h4><br/>
+         
+         <MainReducerHook/>
+
+      {/*React lesson-23 End*/}
+      ************************************************************************************************************************************<br/><br/><br/><br/><br/><br/>
+      
+
+
 
 
 
