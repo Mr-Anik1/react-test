@@ -20,25 +20,25 @@
    change korte help korbe.Eta muloto useState(count,setCount)
    e deya 2nd parameter er moto.Orthat "setState" er kajta korbe.
 
-
-
-
-  3.
-   r
-
-
-   
-
 */
 
+import '../cssFolder/index.css';
 import CounterReduce from './CounterReduce';
+import DoubleInitialValue from './DoubleInitialValue';
+import MainGlobalState from './globalState/MainGlobalState';
 import Go from './Go';
+
 
 function MainReducerHook(){
     return(
         <div>
             <CounterReduce/><br/><br/>
-            <Go/>
+            <Go/><br/><br/><br/>
+            <DoubleInitialValue/><br/><br/><br/><br/><br/>
+
+            {/* For GlobalState Example */}
+            <h4>Global State Example</h4>
+            <MainGlobalState/>
         </div>
     );
 }

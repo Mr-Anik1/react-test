@@ -12,6 +12,7 @@ import Calculator from './liftingStateUp/Calculator';
 import SmartCalculator from './liftingStateUp/smartBoil/SmartCalculator';
 import Name from './Name';
 import MainRender from './renderProps/MainRender';
+import MainUseContex from './smartUseContex/MainUseContex';
 import Clock from './state/Clock';
 import TestClock from './state/TestClock';
 import MainUseCallBack from './useCallback/MainUseCallBack';
@@ -19,7 +20,6 @@ import MainEffect from './useEffectHook/MainEffect';
 import MainReducerHook from './useReducerHook/MainReducerHook';
 import MainUseRef from './useRefHook/MainUseRef';
 import MainUseStateHook from './useStateHook/MainUseStateHook';
-
 
 
 
@@ -216,7 +216,11 @@ function Main(){
          
 
          {/*From Hindi Video*/}
-         <MainContex/>
+         <MainContex/><br/><br/>
+
+         {/* useContex by Sumit Dada */}
+         <h4>Smart way by useContex()</h4>
+         <MainUseContex/>
         
        
       {/*React lesson-16 End*/}

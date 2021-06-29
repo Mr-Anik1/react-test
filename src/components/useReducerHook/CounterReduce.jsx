@@ -39,11 +39,12 @@ function CounterReduce(){
 
     return(
         <div>
-            <h4>Count-{count}</h4>
+
+            <h4>Count: {count}</h4>
+            <button onClick={incrementClick}>Increment</button>
             <button onClick={()=>dispatch('decrement')}>Decrement</button>
             {/*Eikhane Direct dispatch nia kaj korte pari*/}
 
-            <button onClick={incrementClick}>Increment</button>
         </div>
     );
 }
