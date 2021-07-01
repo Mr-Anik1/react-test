@@ -16,10 +16,12 @@ import MainUseContex from './smartUseContex/MainUseContex';
 import Clock from './state/Clock';
 import TestClock from './state/TestClock';
 import MainUseCallBack from './useCallback/MainUseCallBack';
+import MainCustom from './useCustomHook/MainCustom';
 import MainEffect from './useEffectHook/MainEffect';
 import MainReducerHook from './useReducerHook/MainReducerHook';
 import MainUseRef from './useRefHook/MainUseRef';
 import MainUseStateHook from './useStateHook/MainUseStateHook';
+
 
 
 
@@ -313,6 +315,25 @@ function Main(){
          <MainReducerHook/>
 
       {/*React lesson-23 End*/}
+      ************************************************************************************************************************************<br/><br/><br/><br/><br/><br/>
+      
+
+
+
+
+
+
+
+
+
+
+      <h4> ************************************************************************************************************************************</h4>
+      {/*React Lesson-4 Topic:CustomHook()  Start */}
+      <h4>React Lesson-24 Topic:CustomHook  Start</h4><br/>
+         
+         <MainCustom/>
+
+      {/*React lesson-24 End*/}
       ************************************************************************************************************************************<br/><br/><br/><br/><br/><br/>
       
 
